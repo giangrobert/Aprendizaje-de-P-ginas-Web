@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>lista anidada</title>
+</head>
+<body>
+	<ol>
+		<li>HTTP es simple</li>
+		<li>Solicitudes entre cliente y servidor</li>
+		<dl>
+			<dt>Paso 1</dt>
+			<dd>El cliente manda una petición</dd>
+			<dt>Paso 2</dt>
+			<dd>El servidor devuelve una respuesta</dd>
+		</dl>
+		<li>¿Qué es HTML?
+			<ul>
+				<li>Es un lenguaje de marcas</li>
+				<li>Se usa para la elaboración de páginas web</li>
+				<li>Es un estándar reconocido mundialmente
+					<ul>
+						<li>Sus normas vienen dadas por el World Wide Web Consortium</li>
+					</ul>
+				</li>
+			</ul>
+		</li>
+	</ol>
+	<br>
+	<h4>Lista de Ganadores</h4>
+	<ul type="square">
+		<li>Juan Perez</li>
+			<ol>
+				<li>Televisor de 54 Pulgadas</li>
+				<li>Tablet Lenovo</li>
+			</ol>
+		<li>Juana de Arco</li>
+			<ol type="a">
+				<li>Acces Point 5G</li>
+				<li>Teclado Multimedia</li>
+				<li>Mouse Gamer</li>
+			</ol>
+		<li>Luis Suarez</li>
+			<dl>
+				<dt>Ferrari</dt>
+					<dd>Es una marca de coches italiana</dd>
+				<dt>Audi</dt>
+					<dd>Es una marca de coches alemana</dd>
+			</dl>
+		<li>Maria Magdalena</li>
+			<ol type="I">
+				<li>Acces Point 5G</li>
+				<li>Teclado Multimedia</li>
+				<li>Mouse Gamer</li>
+			</ol>
+	</ul>
+	<br>
+	<h2 align="center">iDESWEB</h2>
+	<h5 align="center">Formulario de registro</h5>
+		<form>
+			<fieldset>
+				<legend>¿QUIÉN ERES?</legend>
+				<label>Nombre</label><br>
+					<input type="text" name="" required="true"><br>
+				<label>Apellidos</label><br>
+					<input type="text" name="" required="true"><br>
+				<label>Correo electrónico</label><br>
+					<input type="email" name="" required="true"><br>
+				<label>Fecha de nacimiento</label><br>
+					<input type="date" name="" required="true">
+			</fieldset>
+			<fieldset>
+				<legend>¿DE DÓNDE ERES?</legend>
+				<label>Ciudad</label><br>
+					<input type="text" name="" required="true"><br>
+				<label>Codigo postal</label><br>
+					<input type="text" name=""><br>
+				<label>País</label><br>
+					<select>
+						<option value="">Pérú</option>
+						<option value="">Bolivia</option>
+						<option value="">Chile</option>
+						<option value="">Ecuador</option>
+					</select>
+			</fieldset>
+			<fieldset>
+				<legend>¿CÓMO QUIERES INICIAR SESIÓN?</legend>
+				<label>Nombre</label><br>
+					<input type="text" name="" required="true"><br>
+				<label>Contraseña</label><br>
+					<input type="password" name="" required="true"><br>
+				<label>Vuelve a escribir la contraseña</label><br>
+					<input type="password" name="" required="true">
+			</fieldset>
+			<fieldset>
+				<legend>CONDICIONES DE REGISTRO</legend>
+				<label>Deseo recibir ofertas de iDESWEB</label><br>
+					<input type="radio" name="sesion" >Una vez al día
+					<input type="radio" name="sesion">Una vez al semana
+					<input type="radio" name="sesion">Una vez al mes <br>
+					<input type="radio" name="" required="true">Acepto el acuerdo de servicios, la declaració de privacidad y la declaración de uso de cookies <br>
+			</fieldset>
+			<input type="submit" value="Crear cuenta" align="center">
+		</form>
+		<br>
+	<br>
+	<h3>Rellena tu CV</h3>
+	<form>
+		<label>Nombre</label><br>
+			<input type="text" name=""><br>
+		<label>Apellidos</label><br>
+			<input type="text" name=""><br>
+		<label>Contraseña</label><br>
+			<input type="password" name=""><br>
+		<label>DNI</label><br>
+			<input type="text" name=""><br>
+		<label>Sexo</label><br>
+			<input type="radio" name="sexo" checked="true">Hombre<br>
+			<input type="radio" name="sexo">Mujer <br>
+		<label>Incluir mi foto</label>
+			<input type="text" name="">
+			<input type="button" value="Elegir..."><br><br>
+		<input type="checkbox" name="">Suscribirme al boletín de novedades <br>
+		<br>
+		<input type="submit" value="Guardar cambios">
+		<input type="button" value="Borrar los datos introducidos">
+	</form>
+</body>
+</html>

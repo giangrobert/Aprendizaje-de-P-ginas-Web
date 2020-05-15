@@ -1,0 +1,67 @@
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	background: rgba(185,43,39,1);  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, rgba(21,101,192,0.603), rgba(185,43,39,0.603)), url(imgg/Fondo.jpg) no-repeat center center fixed;  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, rgba(21,101,192,0.603), rgba(185,43,39,0.603)), url(imgg/Fondo.jpg) no-repeat center center fixed; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	-webkit-background-size: cover;
+	background-size: cover;
+	position: relative;
+}
+ul{
+	display: inline-block;
+}
+li{
+	display: inline-block;
+	margin: 10px;
+	padding: 10px;
+	color: white;
+	border-bottom: 0.8px dotted; 
+	font-family: sans-serif;
+}
+nav{
+	text-align: right;
+	background-color: rgba(0,0,0,0.40);
+}
+.text{
+	text-align: center;
+	font-size: 3em;
+	padding-top: 10%;
+	color: white;
+	text-shadow: 2px 2px 2px black;
+
+}
+figure{
+	float: left;
+	font-size: 100px;
+	color: rgba(255,255,255,1);
+	text-shadow: 0px 0px 20px black;
+	padding-top: 20px;
+	padding-left: 40px;
+}
+.textdes{
+	text-align: center;
+	font-size: 2em;
+	color: white;
+	text-shadow: 1px 1px 1px black;
+}
+.botones{
+	text-align: center;
+	margin-top: 100px;
+	color: white;
+}
+button{
+	padding: 20px;
+	margin-left: 40px;
+	margin-right: 40px;
+	color: white;
+	background-color: rgba(255,255,255,0);
+	text-decoration: none;
+	border: dashed;
+}
+.barra{
+	position: relative;
+	top: 40px;
+}

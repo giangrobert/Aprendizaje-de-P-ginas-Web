@@ -1,0 +1,115 @@
+.contenido{
+	background-color: #ececec;
+	width: 1000px;
+	line-height: 100px;
+	font-size: 40px;
+	text-align: center;
+}
+.nav{
+	width: 1000px;
+	height: 100px;
+}
+.box1{
+	background-color: #222831;
+	height: 100px;
+	float: left;
+	width: 200px;
+	text-align: center;
+	color: white;
+	
+}
+.box2{
+	background-color: #30475e;
+	height: 100px;
+	float: left;
+	width: 200px;
+	text-align: center;
+	color: white;
+}
+.box3{
+	background-color: #222831;
+	height: 100px;
+	float: left;
+	width: 200px;
+	text-align: center;
+	color: white;
+}
+.box4{
+	background-color: #30475e;
+	height: 100px;
+	float: left;
+	width: 200px;
+	text-align: center;
+	color: white;
+}
+.box5{
+	background-color: #222831;
+	height: 100px;
+	float: left;
+	width: 200px;
+	text-align: center;
+	color: white;
+}
+
+.header{
+	width: 1000px;
+	height: 300px;
+}
+.banner{
+	background-color: #f2a365;
+	float: left;
+	width: 800px;
+	height: 300px;
+}
+.logo{
+	background-color: #30475e;
+	color: white;
+	width: 200px;
+	height: 100px;
+	float: left;
+}
+.login{
+	background-color: #222831;
+	color: white;
+	width: 200px;
+	height: 100px;
+	float: left;
+}
+.form{
+	background-color: #30475e;
+	color: white;
+	width: 200px;
+	height: 100px;
+	float: left;
+}
+.main{
+	width: 1000px;
+	height: 500px; 
+}
+.asidel{
+	background-color:#ececec;
+	float: left;
+	width: 200px;
+	height: 500px;
+	color: white;
+}
+.article{
+	background-color:#30475e;
+	float: left;
+	width: 500px;
+	height: 500px;
+	color: white;
+}
+.asider{
+	background-color:#ececec;
+	float: right;
+	width: 300px;
+	height: 500px;
+	color: white;
+}
+.footer{
+	background-color:#222831;
+	float: right;
+	width: 1000px;
+	height: 80px;
+	color: white;
